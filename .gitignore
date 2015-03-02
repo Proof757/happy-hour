@@ -1,0 +1,6 @@
+# Temp files
+.DS_Store
+*.scssc
+
+# Bartender
+node_modules
