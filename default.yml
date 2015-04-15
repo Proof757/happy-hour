@@ -7,10 +7,10 @@ linters:
     enabled: true
     space_before_bang: true
     space_after_bang: false
-    
+
   BorderZero:
     enabled: true
-    
+
   ColorKeyword:
     enabled: false
 
@@ -19,7 +19,7 @@ linters:
 
   Comment:
     enabled: true
-    
+
   DebugStatement:
     enabled: true
 
@@ -33,7 +33,7 @@ linters:
   ElsePlacement:
     enabled: false
     style: same_line # or 'new_line'
-    
+
   EmptyLineBetweenBlocks:
     enabled: true
     ignore_single_line_blocks: true
@@ -60,7 +60,7 @@ linters:
 
   IdSelector:
     enabled: true
-    
+
   ImportantRule:
     enabled: true
 
@@ -68,7 +68,7 @@ linters:
     enabled: true
     leading_underscore: false
     filename_extension: false
-    
+
   Indentation:
     enabled: true
     character: space # or 'tab'
@@ -91,7 +91,7 @@ linters:
   NestingDepth:
     enabled: true
     max_depth: 3
-    
+
   PlaceholderInExtend:
     enabled: true
 
@@ -99,7 +99,7 @@ linters:
     enabled: false
     include_nested: true
     max_properties: 10
-    
+
   PropertySortOrder:
     enabled: true
     order:
@@ -163,7 +163,7 @@ linters:
   SpaceBetweenParens:
     enabled: true
     spaces: 0
-    
+
   StringQuotes:
     enabled: true
     style: double_quotes # or single_quotes
@@ -182,7 +182,7 @@ linters:
 
   UrlFormat:
     enabled: true
-    
+
   UrlQuotes:
     enabled: true
 

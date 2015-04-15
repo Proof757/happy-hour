@@ -23,7 +23,7 @@ var gulp = require("gulp"),
 //      "js/scripts.js"]
 var paths = {
   src: "src/",
-  dest: "dist/",
+  dest: "app/",
   scripts: []
 };
 
@@ -144,7 +144,7 @@ gulp.task('browser-sync', function() {
 
 
 // Default Task
-gulp.task("default", ['browser-sync'], function() {
+gulp.task("default", function() {
   gulp.start("html", "styles", "scripts", "images");
 });
 
